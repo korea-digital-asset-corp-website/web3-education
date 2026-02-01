@@ -1,0 +1,45 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Dependencies
+node_modules/
+
+# Build outputs (Hardhat)
+cache/
+artifacts/
+typechain-types/
+
+# Build outputs (Foundry)
+out/
+broadcast/
+
+# Build outputs (Truffle)
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Coverage
+coverage/
+coverage.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# Misc
+.gw/
+
+# Claude Code
+.claude/
+.claudeignore
