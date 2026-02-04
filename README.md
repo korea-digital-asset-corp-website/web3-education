@@ -8,3 +8,4 @@
 |------|------|------|
 | 1회차 | 지갑과 스마트 컨트랙트 | [260128_1st](./260128_1st/) |
 | 2회차 | Web3 Native | [250201_2nd](./250201_2nd/) |
+| 3회차 | Web3 디파이 | [260204 3rd](https://github.com/korea-digital-asset-corp-website/web3-education/tree/main/260204_3rd) |
