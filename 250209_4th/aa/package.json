@@ -1,0 +1,26 @@
+{
+  "name": "aa-workshop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Account Abstraction 실습 프로젝트 (EIP-7702, Safe)",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "eip7702:delegate": "tsx scripts/01-eip7702/01-create-delegation.ts",
+    "eip7702:transfer": "tsx scripts/01-eip7702/02-execute-transfer.ts",
+    "eip7702:add-delegate": "tsx scripts/01-eip7702/03-add-delegate.ts",
+    "eip7702:batch": "tsx scripts/01-eip7702/04-batch-execute.ts",
+    "eip7702:meta-tx": "tsx scripts/01-eip7702/05-meta-transaction.ts",
+    "eip7702:change-master": "tsx scripts/01-eip7702/06-change-master.ts",
+    "safe:deploy": "tsx scripts/02-safe/01-deploy-safe.ts",
+    "safe:exec": "tsx scripts/02-safe/02-exec-transaction.ts",
+    "safe:module": "tsx scripts/02-safe/03-enable-module.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "viem": "^2.23.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

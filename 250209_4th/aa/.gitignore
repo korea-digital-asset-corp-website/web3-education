@@ -1,0 +1,12 @@
+# Foundry
+out/
+cache/
+
+# Node
+node_modules/
+
+# Environment
+.env
+
+# OS
+.DS_Store
